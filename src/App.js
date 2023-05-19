@@ -11,11 +11,11 @@ function App()
    <div>
       <Link to="/">Register</Link>
       <Link to="/login">Login</Link>
-   </div>
+  </div>
    <routes>
       <route exact path="/" element={<Register/>}/>
       <route exact path="/login" element={<Login/>}/>
-   </routes>
+  </routes>
    </BrowserRouter>
   );
 }
